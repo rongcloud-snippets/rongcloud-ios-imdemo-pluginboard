@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BCC6BF724EA746B000F89BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC6BF624EA746B000F89BD /* AppDelegate.m */; };
+		9BCC6BFD24EA746B000F89BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC6BFC24EA746B000F89BD /* ViewController.m */; };
+		9BCC6C0024EA746B000F89BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCC6BFE24EA746B000F89BD /* Main.storyboard */; };
+		9BCC6C0224EA746F000F89BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCC6C0124EA746F000F89BD /* Assets.xcassets */; };
+		9BCC6C0524EA746F000F89BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCC6C0324EA746F000F89BD /* LaunchScreen.storyboard */; };
+		9BCC6C0824EA746F000F89BD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC6C0724EA746F000F89BD /* main.m */; };
+		9BCC6C1324EA74E0000F89BD /* RCSConversationListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC6C0F24EA74DF000F89BD /* RCSConversationListViewController.m */; };
+		9BCC6C1424EA74E0000F89BD /* RCSConversationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCC6C1124EA74E0000F89BD /* RCSConversationViewController.m */; };
+		F8E0E8985D1CC062D6ACE395 /* Pods_rongcloud_ios_imdemo_pluginboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61A23581775B9C1DE9DB68A /* Pods_rongcloud_ios_imdemo_pluginboard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D8D8B2F1E7AAC277D5547A2 /* Pods-rongcloud-ios-imdemo-pluginboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rongcloud-ios-imdemo-pluginboard.release.xcconfig"; path = "Target Support Files/Pods-rongcloud-ios-imdemo-pluginboard/Pods-rongcloud-ios-imdemo-pluginboard.release.xcconfig"; sourceTree = "<group>"; };
+		9BCC6BF224EA746B000F89BD /* rongcloud-ios-imdemo-pluginboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rongcloud-ios-imdemo-pluginboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BCC6BF524EA746B000F89BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9BCC6BF624EA746B000F89BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9BCC6BFB24EA746B000F89BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9BCC6BFC24EA746B000F89BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9BCC6BFF24EA746B000F89BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BCC6C0124EA746F000F89BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BCC6C0424EA746F000F89BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BCC6C0624EA746F000F89BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BCC6C0724EA746F000F89BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BCC6C0E24EA74DF000F89BD /* RCSConversationListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSConversationListViewController.h; sourceTree = "<group>"; };
+		9BCC6C0F24EA74DF000F89BD /* RCSConversationListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSConversationListViewController.m; sourceTree = "<group>"; };
+		9BCC6C1024EA74DF000F89BD /* RCSConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSConfig.h; sourceTree = "<group>"; };
+		9BCC6C1124EA74E0000F89BD /* RCSConversationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSConversationViewController.m; sourceTree = "<group>"; };
+		9BCC6C1224EA74E0000F89BD /* RCSConversationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSConversationViewController.h; sourceTree = "<group>"; };
+		E61A23581775B9C1DE9DB68A /* Pods_rongcloud_ios_imdemo_pluginboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rongcloud_ios_imdemo_pluginboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D3EC22DF5797F3E8AD8861 /* Pods-rongcloud-ios-imdemo-pluginboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rongcloud-ios-imdemo-pluginboard.debug.xcconfig"; path = "Target Support Files/Pods-rongcloud-ios-imdemo-pluginboard/Pods-rongcloud-ios-imdemo-pluginboard.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BCC6BEF24EA746B000F89BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E0E8985D1CC062D6ACE395 /* Pods_rongcloud_ios_imdemo_pluginboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		165289ED80C960A1CC219CAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E61A23581775B9C1DE9DB68A /* Pods_rongcloud_ios_imdemo_pluginboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5284365AEFCC678F38C0E324 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8D3EC22DF5797F3E8AD8861 /* Pods-rongcloud-ios-imdemo-pluginboard.debug.xcconfig */,
+				7D8D8B2F1E7AAC277D5547A2 /* Pods-rongcloud-ios-imdemo-pluginboard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9BCC6BE924EA746B000F89BD = {
+			isa = PBXGroup;
+			children = (
+				9BCC6BF424EA746B000F89BD /* rongcloud-ios-imdemo-pluginboard */,
+				9BCC6BF324EA746B000F89BD /* Products */,
+				5284365AEFCC678F38C0E324 /* Pods */,
+				165289ED80C960A1CC219CAA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9BCC6BF324EA746B000F89BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC6BF224EA746B000F89BD /* rongcloud-ios-imdemo-pluginboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BCC6BF424EA746B000F89BD /* rongcloud-ios-imdemo-pluginboard */ = {
+			isa = PBXGroup;
+			children = (
+				9BCC6C1024EA74DF000F89BD /* RCSConfig.h */,
+				9BCC6C0E24EA74DF000F89BD /* RCSConversationListViewController.h */,
+				9BCC6C0F24EA74DF000F89BD /* RCSConversationListViewController.m */,
+				9BCC6C1224EA74E0000F89BD /* RCSConversationViewController.h */,
+				9BCC6C1124EA74E0000F89BD /* RCSConversationViewController.m */,
+				9BCC6BF524EA746B000F89BD /* AppDelegate.h */,
+				9BCC6BF624EA746B000F89BD /* AppDelegate.m */,
+				9BCC6BFB24EA746B000F89BD /* ViewController.h */,
+				9BCC6BFC24EA746B000F89BD /* ViewController.m */,
+				9BCC6BFE24EA746B000F89BD /* Main.storyboard */,
+				9BCC6C0124EA746F000F89BD /* Assets.xcassets */,
+				9BCC6C0324EA746F000F89BD /* LaunchScreen.storyboard */,
+				9BCC6C0624EA746F000F89BD /* Info.plist */,
+				9BCC6C0724EA746F000F89BD /* main.m */,
+			);
+			path = "rongcloud-ios-imdemo-pluginboard";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BCC6BF124EA746B000F89BD /* rongcloud-ios-imdemo-pluginboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BCC6C0B24EA746F000F89BD /* Build configuration list for PBXNativeTarget "rongcloud-ios-imdemo-pluginboard" */;
+			buildPhases = (
+				A835C92BF1248C3ADB5034A4 /* [CP] Check Pods Manifest.lock */,
+				9BCC6BEE24EA746B000F89BD /* Sources */,
+				9BCC6BEF24EA746B000F89BD /* Frameworks */,
+				9BCC6BF024EA746B000F89BD /* Resources */,
+				ACC93FF8E152970B5ABFBF3E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "rongcloud-ios-imdemo-pluginboard";
+			productName = "rongcloud-ios-imdemo-pluginboard";
+			productReference = 9BCC6BF224EA746B000F89BD /* rongcloud-ios-imdemo-pluginboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BCC6BEA24EA746B000F89BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = RC;
+				TargetAttributes = {
+					9BCC6BF124EA746B000F89BD = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 9BCC6BED24EA746B000F89BD /* Build configuration list for PBXProject "rongcloud-ios-imdemo-pluginboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BCC6BE924EA746B000F89BD;
+			productRefGroup = 9BCC6BF324EA746B000F89BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BCC6BF124EA746B000F89BD /* rongcloud-ios-imdemo-pluginboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BCC6BF024EA746B000F89BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCC6C0524EA746F000F89BD /* LaunchScreen.storyboard in Resources */,
+				9BCC6C0224EA746F000F89BD /* Assets.xcassets in Resources */,
+				9BCC6C0024EA746B000F89BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A835C92BF1248C3ADB5034A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-rongcloud-ios-imdemo-pluginboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACC93FF8E152970B5ABFBF3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rongcloud-ios-imdemo-pluginboard/Pods-rongcloud-ios-imdemo-pluginboard-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-rongcloud-ios-imdemo-pluginboard/Pods-rongcloud-ios-imdemo-pluginboard-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-rongcloud-ios-imdemo-pluginboard/Pods-rongcloud-ios-imdemo-pluginboard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BCC6BEE24EA746B000F89BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCC6C1424EA74E0000F89BD /* RCSConversationViewController.m in Sources */,
+				9BCC6C1324EA74E0000F89BD /* RCSConversationListViewController.m in Sources */,
+				9BCC6BFD24EA746B000F89BD /* ViewController.m in Sources */,
+				9BCC6BF724EA746B000F89BD /* AppDelegate.m in Sources */,
+				9BCC6C0824EA746F000F89BD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9BCC6BFE24EA746B000F89BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BCC6BFF24EA746B000F89BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BCC6C0324EA746F000F89BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BCC6C0424EA746F000F89BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BCC6C0924EA746F000F89BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9BCC6C0A24EA746F000F89BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BCC6C0C24EA746F000F89BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8D3EC22DF5797F3E8AD8861 /* Pods-rongcloud-ios-imdemo-pluginboard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "rongcloud-ios-imdemo-pluginboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RC.rongcloud-ios-imdemo-pluginboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BCC6C0D24EA746F000F89BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D8D8B2F1E7AAC277D5547A2 /* Pods-rongcloud-ios-imdemo-pluginboard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "rongcloud-ios-imdemo-pluginboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "RC.rongcloud-ios-imdemo-pluginboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BCC6BED24EA746B000F89BD /* Build configuration list for PBXProject "rongcloud-ios-imdemo-pluginboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCC6C0924EA746F000F89BD /* Debug */,
+				9BCC6C0A24EA746F000F89BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BCC6C0B24EA746F000F89BD /* Build configuration list for PBXNativeTarget "rongcloud-ios-imdemo-pluginboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BCC6C0C24EA746F000F89BD /* Debug */,
+				9BCC6C0D24EA746F000F89BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BCC6BEA24EA746B000F89BD /* Project object */;
+}
