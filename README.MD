@@ -1,6 +1,6 @@
 # rongcloud-ios-imdemo-pluginboard
 
-rongcloud-ios-imdemo-pluginboard 是基于融云 IMKit SDK 的语音转文字功能，使用了融云最新的 4.0 SDK。
+rongcloud-ios-imdemo-pluginboard 是基于融云 IMKit SDK 的输入框 ➕ 区域设置功能，使用了融云最新的 4.0 SDK。
 
 
 # 使用步骤
